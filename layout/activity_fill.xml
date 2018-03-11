@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choice_single"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gentleman.i.Choice_singleActivity">
+    <include layout="@layout/title_2"/>
+    <TextView
+        android:text="题目标题"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/fill_name"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="请输入题目标题"
+        android:textColorHint="#7c7c7c"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/finish_fill"
+        android:text="确定"
+        android:textSize="20sp"
+        android:textColor="#FFFFF0"
+        android:backgroundTint="#00BFFF"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp"  />
+</RelativeLayout>

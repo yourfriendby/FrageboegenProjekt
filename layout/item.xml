@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/lisw_item"
+        android:layout_marginTop="8dp"
+        android:textSize="25sp"
+        android:text="问题"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textColor="#696969"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/list_type"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#696969"
+        android:text="单选题"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

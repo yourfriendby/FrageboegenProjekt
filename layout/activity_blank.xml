@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gentleman.i.BlankActivity">
+    <include layout="@layout/title_2"/>
+<Button
+    android:id="@+id/choice_single"
+    android:text="单选题"
+    android:background="@drawable/botton_shape"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="220dp"
+    android:layout_width="70dp"
+    android:layout_height="70dp" />
+    <Button
+        android:id="@+id/choice_more"
+        android:text="多选题"
+        android:background="@drawable/botton_shape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/fill"
+        android:text="填空题"
+        android:background="@drawable/botton_shape"
+        android:layout_marginRight="40dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="220dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

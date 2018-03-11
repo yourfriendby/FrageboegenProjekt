@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/title_1"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="我的问卷"
+        android:textColor="#1E90FF"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/new_survey"
+        android:text="创建新问卷"
+        android:textColor="#FFFFF0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#00BFFF" />
+    <ImageButton
+        android:id="@+id/advice"
+        android:src="@drawable/p_ad"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/recycle"
+        android:src="@drawable/p_re"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="#DCDCDC"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+         />
+</RelativeLayout>

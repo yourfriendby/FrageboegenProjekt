@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gentleman.i">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCSS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MamagerActivity" />
+        <activity android:name=".reActivity" />
+        <activity android:name=".RecycleActivity" />
+        <activity android:name=".AdviceActivity" />
+        <activity android:name=".New_suActivity" />
+        <activity android:name=".New_su2Activity" />
+        <activity android:name=".BlankActivity" />
+        <activity android:name=".Choice_singleActivity" />
+        <activity android:name=".Choice_moreActivity" />
+        <activity android:name=".FillActivity" />
+        <activity android:name=".PreviewActivity"></activity>
+        <meta-data android:name="Mob-AppKey" android:value="2368094ca9aec"/>
+        <meta-data android:name="Mob-AppSecret" android:value=" 8fd798832faa54f5847551bba652870b"/>
+
+    <activity
+    android:name="com.mob.tools.MobUIShell"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+    <activity
+        android:name="cn.sharesdk.tencent.qq.ReceiveActivity"
+        android:launchMode="singleTask"
+        android:noHistory="true">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="tencent1106647724" />
+        </intent-filter>
+    </activity>
+    </application>
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_su"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gentleman.i.New_suActivity">
+<include layout="@layout/title_2"/>
+
+    <TextView
+        android:text="调查名称"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="32dp"
+         />
+    <EditText
+        android:id="@+id/newsu_name_1"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_marginTop="152dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/newsu_botton_1"
+        android:text="确定"
+        android:textSize="20sp"
+        android:textColor="#FFFFF0"
+        android:backgroundTint="#00BFFF"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="60dp" />
+</RelativeLayout>

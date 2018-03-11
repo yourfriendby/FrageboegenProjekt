@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/title_2"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="42dp">
+<TextView
+    android:text="创建问卷"
+    android:id="@+id/usual_ti"
+    android:textColor="#1E90FF"
+    android:textSize="24sp"
+    android:layout_marginTop="7dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<View
+    android:layout_alignParentBottom="true"
+    android:background="#DCDCDC"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    />
+</RelativeLayout>
